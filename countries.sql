@@ -8,14 +8,14 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `countries` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `sortname` varchar(3) NOT NULL,
+  `code` varchar(3) NOT NULL,
   `name` varchar(150) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=249 ;
 
 
 
-INSERT INTO `countries` (`id`, `sortname`, `name`) VALUES
+INSERT INTO `countries` (`id`, `code`, `name`) VALUES
 (1, 'AF', 'Afghanistan'),
 (2, 'AL', 'Albania'),
 (3, 'DZ', 'Algeria'),
