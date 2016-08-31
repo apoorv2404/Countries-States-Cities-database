@@ -6,16 +6,16 @@ SET time_zone = "+00:00";
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8 */;
 
-CREATE TABLE IF NOT EXISTS `countries` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
+CREATE TABLE IF NOT EXISTS `axi_countries` (
+  `_id` int(11) NOT NULL AUTO_INCREMENT,
   `code` varchar(3) NOT NULL,
   `name` varchar(150) NOT NULL,
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (`_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=249 ;
 
 
 
-INSERT INTO `countries` (`id`, `code`, `name`) VALUES
+INSERT INTO `axi_countries` (`_id`, `code`, `name`) VALUES
 (1, 'AF', 'Afghanistan'),
 (2, 'AL', 'Albania'),
 (3, 'DZ', 'Algeria'),
